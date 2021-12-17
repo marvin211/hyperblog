@@ -1,0 +1,89 @@
+/* Selector universal: Aplica el estilo a toda la pagina */
+/* 
+*{
+    font-size: 50px; 
+    background-color: black;
+    color: white;
+} */
+
+/* Selector de etiqueta: Aplicado a etiquetas necesarias*/
+/* h1{
+    font-size: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* Selector de etiquetas multiples */
+/* h1,h2,h3,h4,h5{
+    color: red;
+    background-color: yellow;
+} */
+
+/* Selectores ID class */
+
+/* .parrafo{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+.parrafo2{
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+#identificador{
+    background-color: blue;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+} */
+
+/* Selector descendente */
+/* .parrafo a{
+    color:inherit;
+} */
+
+/* Selector hijo */
+
+/* h1 > a{
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray; 
+}
+
+p > a{
+    color: firebrick;
+    font-size: 70px;
+} */
+
+/* Selector Adyacente */
+/* h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* Selector de atributo */
+/* [class]{
+    color: red;
+    font-size: 48px;
+
+} */
+
+[class="parrafo"]{
+    color: seagreen;
+    font-weight: bold;
+}
